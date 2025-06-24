@@ -61,7 +61,13 @@ public class ExtentReportManager implements ITestListener {
     public void onTestSkipped(ITestResult result) {
         test = reporter.createTest(result.getTestClass().getName());
         test.assignCategory(result.getMethod().getGroups());
-        test.log(Status.SKIP, "Test  " + result.getName() + " skipped");
+        test.log(Status.SKIP, "Test  " + result.getName() + " skipped" + " due to: " + result.getThrowable());
+        try {
+            String imgPath = captureScreenshot(result.getName());
+            test.addScreenCaptureFromPath(imgPath);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 

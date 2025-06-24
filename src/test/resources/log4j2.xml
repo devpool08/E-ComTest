@@ -4,17 +4,31 @@
         <Property name="basePath">./logs</Property>
     </Properties>
     <Appenders>
+        <!-- Console Appender -->
         <Console name="CONSOLE" target="SYSTEM_OUT">
             <PatternLayout pattern="%p - %m%n"/>
         </Console>
-        <File name="MAIN" fileName="logs/main.log">
-            <JsonTemplateLayout/>
+
+        <!-- Main Log File Appender -->
+        <File name="MAIN" fileName="${basePath}/main.log">
+            <PatternLayout pattern="%d [%t] %-5level - %msg%n"/>
+        </File>
+
+        <!-- Error Log File Appender -->
+        <File name="ERROR" fileName="${basePath}/error.log">
+            <PatternLayout pattern="%d [%t] %-5level - %msg%n"/>
+            <Filters>
+                <!-- Only include messages of ERROR or higher levels (e.g., ERROR, FATAL) -->
+                <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
         </File>
     </Appenders>
     <Loggers>
+        <!-- Root Logger -->
         <Root level="INFO">
-            <AppenderRef ref="CONSOLE" level="WARN"/>
+            <AppenderRef ref="CONSOLE"/>
             <AppenderRef ref="MAIN"/>
+            <AppenderRef ref="ERROR"/>
         </Root>
     </Loggers>
 </Configuration>

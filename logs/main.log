@@ -1,0 +1,10 @@
+2025-06-24 20:46:43,547 [TestNG-tests-2] ERROR - Error during setup: Browser is not available
+2025-06-24 20:46:47,425 [TestNG-tests-3] ERROR - Error during setup: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 131
+Current browser version is 137.0.3296.93 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
+Host info: host: 'KRISHNAS', ip: '192.168.1.10'
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized, --disable-popup-blocking], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
+2025-06-24 20:46:51,311 [TestNG-tests-1] INFO  - setUp completed for org.ecom.tests.HomepageAndCategoryVerificationTest
+2025-06-24 20:46:56,196 [TestNG-tests-1] INFO  - tearDown completed for org.ecom.tests.HomepageAndCategoryVerificationTest
