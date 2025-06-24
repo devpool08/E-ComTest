@@ -1,5 +1,6 @@
 package org.ecom.base;
 
+import com.github.javafaker.Faker;
 import lombok.SneakyThrows;
 import lombok.extern.log4j.Log4j2;
 import org.ecom.utils.SingletonWebDriverFactoryUtils;
@@ -14,6 +15,7 @@ import java.util.Properties;
 @SuppressWarnings({"unused"})
 public class BaseTest {
 
+    protected Faker faker;
     protected Properties properties;
     protected FileReader reader;
     protected String browserName;
@@ -23,6 +25,7 @@ public class BaseTest {
     @Parameters("browser")
     public void setUp(String browser) {
         try {
+            faker= new Faker();
             SingletonWebDriverFactoryUtils.setThreadLocalDriver(browser);
             properties = new Properties();
             reader = new FileReader("./src/test/resources/config.properties");
