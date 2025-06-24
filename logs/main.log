@@ -8,3 +8,13 @@ Driver info: org.openqa.selenium.edge.EdgeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized, --disable-popup-blocking], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
 2025-06-24 20:46:51,311 [TestNG-tests-1] INFO  - setUp completed for org.ecom.tests.HomepageAndCategoryVerificationTest
 2025-06-24 20:46:56,196 [TestNG-tests-1] INFO  - tearDown completed for org.ecom.tests.HomepageAndCategoryVerificationTest
+2025-06-24 21:28:25,211 [TestNG-tests-1] INFO  - setUp completed for org.ecom.tests.HomepageAndCategoryVerificationTest
+2025-06-24 21:28:30,485 [TestNG-tests-1] INFO  - tearDown completed for org.ecom.tests.HomepageAndCategoryVerificationTest
+2025-06-24 21:30:30,679 [TestNG-tests-1] INFO  - setUp completed for org.ecom.tests.HomepageAndCategoryVerificationTest
+2025-06-24 21:30:33,045 [TestNG-tests-1] INFO  - Homepage is opened successfully
+2025-06-24 21:30:33,166 [TestNG-tests-1] INFO  - Category page is opened successfully
+2025-06-24 21:30:34,352 [TestNG-tests-1] INFO  - tearDown completed for org.ecom.tests.HomepageAndCategoryVerificationTest
+2025-06-24 21:31:25,935 [TestNG-tests-1] INFO  - setUp completed for org.ecom.tests.HomepageAndCategoryVerificationTest
+2025-06-24 21:31:28,360 [TestNG-tests-1] INFO  - Homepage is opened successfully
+2025-06-24 21:31:28,475 [TestNG-tests-1] INFO  - Category page is opened successfully
+2025-06-24 21:31:29,784 [TestNG-tests-1] INFO  - tearDown completed for org.ecom.tests.HomepageAndCategoryVerificationTest
