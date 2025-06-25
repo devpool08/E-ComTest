@@ -55,7 +55,6 @@ public class ExtentReportManager implements ITestListener {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        SingletonWebDriverFactoryUtils.quitDriverAndRemove();
     }
 
     @Override
@@ -82,13 +81,13 @@ public class ExtentReportManager implements ITestListener {
         String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
         reportName = "Test-Report-" + timeStamp + ".html";
         sparkReporter = new ExtentSparkReporter(".\\reports\\" + reportName);
-        sparkReporter.config().setDocumentTitle("SwagLab Test Automation Report");
-        sparkReporter.config().setReportName("SwagLab Functional Testing");
+        sparkReporter.config().setDocumentTitle("E-Com Test Automation Report");
+        sparkReporter.config().setReportName("E-Com Functional Testing");
         sparkReporter.config().setTheme(Theme.DARK);
 
         reporter = new ExtentReports();
         reporter.attachReporter(sparkReporter);
-        reporter.setSystemInfo("Applications", "SwagLab");
+        reporter.setSystemInfo("Applications", "E-Com");
         reporter.setSystemInfo("Module", "Admin");
         reporter.setSystemInfo("Environment", "QA");
         reporter.setSystemInfo("Tester", "Debadatta");

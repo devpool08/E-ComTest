@@ -4,17 +4,29 @@
   <listeners>
     <listener class-name="org.ecom.utils.ExtentReportManager"/>
   </listeners>
-  <test thread-count="3" name="firefox-tests(failed)">
+  <test thread-count="3" parallel="classes" name="firefox-tests(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="org.ecom.tests.ProductSelectionAndCartAdditionTest">
+      <class name="org.ecom.tests.RegistrationTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="selectRandomProductAndAddToCart"/>
-          <include name="prerequisite"/>
+          <include name="demoTestForSkip2"/>
+          <include name="demoTestForFailing"/>
+          <include name="demoTestForSkip"/>
+          <include name="fillRegistrationForm"/>
+          <include name="openRegistrationPage"/>
         </methods>
-      </class> <!-- org.ecom.tests.ProductSelectionAndCartAdditionTest -->
+      </class> <!-- org.ecom.tests.RegistrationTest -->
+      <class name="org.ecom.tests.HomepageAndCategoryVerificationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="openHomePage"/>
+          <include name="verifyCategoryPage"/>
+          <include name="navigateToRandomCategoryAndValidateMinimumNumberOfProduct"/>
+        </methods>
+      </class> <!-- org.ecom.tests.HomepageAndCategoryVerificationTest -->
     </classes>
   </test> <!-- firefox-tests(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

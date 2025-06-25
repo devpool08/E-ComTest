@@ -4,7 +4,7 @@ import lombok.extern.log4j.Log4j2;
 import org.ecom.base.BaseTest;
 import org.ecom.pages.CheckoutPage;
 import org.ecom.pages.HomePage;
-import org.ecom.utils.data.TestData;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
@@ -18,6 +18,19 @@ import static org.ecom.utils.SingletonWebDriverFactoryUtils.getThreadLocalDriver
 public class ProductSelectionAndCartAdditionTest extends BaseTest {
     private HomePage homePage;
     private CheckoutPage checkoutPage;
+    private String expectedProductName1;
+    private double expectedTotalPrice1;
+    private String expectedProductPrice1;
+    private String expectedProductName2;
+    private double expectedTotalPrice2;
+    private String expectedProductPrice2;
+    private double expectedTotalPrice;
+    private double actualTotalProductPrice1;
+    private String actualProductName1;
+    private double actualTotalProductPrice2;
+    private String actualProductName2;
+    private double actualTotalPrice;
+
 
     @Test
     public void prerequisite() {
@@ -32,7 +45,7 @@ public class ProductSelectionAndCartAdditionTest extends BaseTest {
     }
 
     @Test(dependsOnMethods = "prerequisite")
-    public void selectRandomProductAndAddToCart() {
+    public void printProductDetails() {
         try {
             List<WebElement> products = homePage.getProductList();
             if (products.isEmpty()) {
@@ -44,41 +57,80 @@ public class ProductSelectionAndCartAdditionTest extends BaseTest {
                 log.info("Product price: {}", homePage.getProductPrice(product));
                 log.info("Product url: {}", homePage.getProductURL(product));
             }
-            int product1 = TestData.getRandomNumber(0, products.size() - 1);
-            WebElement randomProduct1 = products.get(product1);
-            String expectedProductName1 = homePage.getProductName(randomProduct1);
-            String expectedProductPrice1 = homePage.getProductPrice(randomProduct1);
-            homePage.addToCart(randomProduct1);
-            log.info("Random product selected and added to cart successfully: {} having price {}", expectedProductName1, expectedProductPrice1);
-            int product2 = TestData.getRandomNumber(0, products.size() - 1);
-            WebElement randomProduct2 = products.get(product2);
-            String expectedProductName2 = homePage.getProductName(randomProduct2);
-            String expectedProductPrice2 = homePage.getProductPrice(randomProduct2);
-            homePage.addToCart(randomProduct2);
-            log.info("Random product selected and added to cart successfully: {} having price {}", expectedProductName2, expectedProductPrice2);
-            homePage.clickCartDropdown();
-            checkoutPage = new CheckoutPage(getThreadLocalDriver());
-            List<WebElement> cartItems = checkoutPage.getTableRows();
-            WebElement firstCartItem = cartItems.get(1);
-            String actualProductName1 = checkoutPage.getProductName(firstCartItem);
-            String actualProductPrice1 = checkoutPage.getProductPrice(firstCartItem);
-            softAssert.assertTrue(actualProductName1.replaceAll("\\s+", "").equalsIgnoreCase(expectedProductName1.replaceAll("\\s+", "")),
-                    "Product name in cart does not match: expected " + expectedProductName1 + ", but got " + actualProductName1);
-            softAssert.assertTrue(actualProductPrice1.replaceAll("\\s+", "").equalsIgnoreCase(expectedProductPrice1.replaceAll("\\s+", "")),
-                    "Product price in cart does not match: expected " + expectedProductPrice1 + ", but got " + actualProductPrice1);
-            WebElement secondCartItem = cartItems.get(2);
-            String actualProductName2 = checkoutPage.getProductName(secondCartItem);
-            String actualProductPrice2 = checkoutPage.getProductPrice(secondCartItem);
-            softAssert.assertTrue(actualProductName2.replaceAll("\\s+", "").equalsIgnoreCase(expectedProductName2.replaceAll("\\s+", "")),
-                    "Product name in cart does not match: expected " + expectedProductName2 + ", but got " + actualProductName2);
-            softAssert.assertTrue(actualProductPrice2.replaceAll("\\s+", "").equalsIgnoreCase(expectedProductPrice2.replaceAll("\\s+", "")),
-                    "Product price in cart does not match: expected " + expectedProductPrice2 + ", but got " + actualProductPrice2);
-            softAssert.assertAll();
-            Thread.sleep(4000);
-            log.info("Random product selected and added to cart successfully");
         } catch (Exception e) {
             log.error("Failed to select product and add to cart: {}", e.getMessage());
-            throw new RuntimeException("Failed to select product and add to cart: " + e);
+            throw e;
+        }
+    }
+
+    @Test(dependsOnMethods = "printProductDetails")
+    public void selectProductAndAddToCart() {
+        try {
+            List<WebElement> products = homePage.getProductList();
+            System.out.println("1---------------------");
+            int product1 = testData.getRandomNumber(0, 8);
+            System.out.println("2---------------------");
+            WebElement randomProduct1 = products.get(product1);
+            System.out.println("3---------------------");
+            expectedProductName1 = homePage.getProductName(randomProduct1);
+            System.out.println("4---------------------");
+            expectedProductPrice1 = homePage.getProductPrice(randomProduct1);
+            System.out.println("5---------------------");
+            expectedTotalPrice1 = Double.parseDouble(expectedProductPrice1.replaceAll("[\\s\\u00A0\\u2000-\\u200B]+", "").replace("$", "").replaceAll("(?<=\\..*)\\.", ""));
+            System.out.println("6---------------------" + expectedTotalPrice1);
+            homePage.addToCart(randomProduct1);
+            System.out.println("7---------------------");
+            log.info("Random product selected and added to cart successfully: {} having price {}", expectedProductName1, expectedProductPrice1);
+            System.out.println("8---------------------");
+            int product2 = testData.getRandomNumber(7, products.size() - 2);
+            System.out.println("9---------------------" + product2);
+            WebElement randomProduct2 = products.get(product2);
+            System.out.println("10---------------------");
+            expectedProductName2 = homePage.getProductName(randomProduct2);
+            System.out.println("11---------------------");
+            expectedProductPrice2 = homePage.getProductPrice(randomProduct2);
+            System.out.println("12---------------------");
+            expectedTotalPrice2 = Double.parseDouble(expectedProductPrice2.replaceAll("[\\s\\u00A0\\u2000-\\u200B]+", "").replace("$", "").replaceAll("(?<=\\..*)\\.", ""));
+            System.out.println("13---------------------" + expectedTotalPrice2);
+            homePage.addToCart(randomProduct2);
+            System.out.println("14---------------------");
+            expectedTotalPrice = expectedTotalPrice1 + expectedTotalPrice2;
+            System.out.println("15---------------------");
+            log.info("Random product selected and added to cart successfully: {} having price {}", expectedProductName2, expectedProductPrice2);
+            homePage.clickCartDropdown();
+            System.out.println("16---------------------");
+            log.info("Random product selected and added to cart successfully");
+            log.info("Selected product and added to cart successfully");
+        } catch (Exception e) {
+            log.error("Failed to select product and add to cart: {}", e.getMessage());
+            throw e;
+        }
+    }
+    @Test(dependsOnMethods = "selectProductAndAddToCart")
+    public void verifyCartDetails() {
+        try {
+            List<WebElement> productList = homePage.getCheckoutProductList();
+            if (productList.isEmpty()) {
+                log.error("No products found in the cart");
+                throw new RuntimeException("No products found in the cart");
+            }
+            actualProductName1= homePage.getCheckoutProductName(productList.get(1));
+            actualProductName2= homePage.getCheckoutProductName(productList.get(2));
+            actualTotalProductPrice1 = Double.parseDouble(homePage.getCheckoutProductPrice(productList.get(1)).replaceAll("[\\s\\u00A0\\u2000-\\u200B]+", "").replace("$", "").replaceAll("(?<=\\..*)\\.", ""));
+            actualTotalProductPrice2 = Double.parseDouble(homePage.getCheckoutProductPrice(productList.get(2)).replaceAll("[\\s\\u00A0\\u2000-\\u200B]+", "").replace("$", "").replaceAll("(?<=\\..*)\\.", ""));
+            actualTotalPrice = actualTotalProductPrice1 + actualTotalProductPrice2;
+            log.info("Product 1 name {}", actualProductName1);
+            log.info("Product 1 price {}", actualTotalProductPrice1);
+            log.info("Product 2 name {}", actualProductName2);
+            log.info("Product 2 price {}", actualTotalProductPrice2);
+            double roundOffActualTotalPrice = Math.round(actualTotalPrice * 100.0) / 100.0;
+            double roundOffExpectedTotalPrice = Math.round(expectedTotalPrice * 100.0) / 100.0;
+            softAssert.assertEquals(roundOffActualTotalPrice, roundOffExpectedTotalPrice, "Total price does not match");
+            softAssert.assertAll();
+            log.info("Product details verified successfully");
+        } catch (Exception e) {
+            log.error("Failed to verify cart details: {}", e.getMessage());
+            throw e;
         }
     }
 }

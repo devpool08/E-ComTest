@@ -6,6 +6,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+@SuppressWarnings("FieldCanBeLocal")
 public class PropertiesUtil {
 
     private static Properties properties;

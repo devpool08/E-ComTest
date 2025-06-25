@@ -67,4 +67,15 @@ public class HomePage extends BasePage {
         wait.until(ExpectedConditions.visibilityOf(cartDropdown));
         cartDropdown.click();
     }
+    public List<WebElement> getCheckoutProductList() {
+        List<WebElement> productList=driver.findElements(By.xpath("//div[@class='container-fluid cart-info product-list']//table[@class='table table-striped table-bordered']//tr"));
+        wait.until(ExpectedConditions.visibilityOf(productList.get(1)));
+        return productList;
+    }
+    public String getCheckoutProductName(WebElement product) {
+        return product.findElement(By.xpath(".//td[@class='align_left']/a")).getText();
+    }
+    public String getCheckoutProductPrice(WebElement product) {
+        return product.findElement(By.xpath(".//td[4]")).getText();
+    }
 }

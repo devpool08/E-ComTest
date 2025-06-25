@@ -1,61 +1,418 @@
-2025-06-25 17:33:22,806 [main] INFO  - setUp completed for org.ecom.tests.ProductSelectionAndCartAdditionTest
-2025-06-25 17:33:37,269 [main] INFO  - Homepage is opened successfully
-2025-06-25 17:33:37,402 [main] INFO  - Product name: SKINSHEEN BRONZER STICK
-2025-06-25 17:33:37,433 [main] INFO  - Product price: $29.50
-2025-06-25 17:33:37,465 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=50
-2025-06-25 17:33:37,501 [main] INFO  - Product name: BENEFIT GIRL MEETS PEARL
-2025-06-25 17:33:37,540 [main] INFO  - Product price: $19.00
+2025-06-25 22:44:19,373 [TestNG-test-firefox-tests-1] INFO  - setUp completed for org.ecom.tests.HomepageAndCategoryVerificationTest
+2025-06-25 22:44:19,373 [TestNG-test-firefox-tests-3] INFO  - setUp completed for org.ecom.tests.RegistrationTest
+2025-06-25 22:44:19,373 [TestNG-test-firefox-tests-2] INFO  - setUp completed for org.ecom.tests.ProductSelectionAndCartAdditionTest
+2025-06-25 22:44:26,094 [TestNG-test-firefox-tests-3] INFO  - Registration page is opened successfully
+2025-06-25 22:44:27,938 [TestNG-test-firefox-tests-2] INFO  - Homepage is opened successfully
+2025-06-25 22:44:28,213 [TestNG-test-firefox-tests-2] INFO  - Product name: SKINSHEEN BRONZER STICK
+2025-06-25 22:44:28,287 [TestNG-test-firefox-tests-2] INFO  - Product price: $29.50
+2025-06-25 22:44:28,310 [TestNG-test-firefox-tests-1] INFO  - Homepage is opened successfully
+2025-06-25 22:44:28,355 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=50
+2025-06-25 22:44:28,441 [TestNG-test-firefox-tests-2] INFO  - Product name: BENEFIT GIRL MEETS PEARL
+2025-06-25 22:44:28,511 [TestNG-test-firefox-tests-2] INFO  - Product price: $19.00
 $30.00
-2025-06-25 17:33:37,575 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=51
-2025-06-25 17:33:37,603 [main] INFO  - Product name: BENEFIT BELLA BAMBA
-2025-06-25 17:33:37,633 [main] INFO  - Product price: $28.00
-2025-06-25 17:33:37,675 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=52
-2025-06-25 17:33:37,705 [main] INFO  - Product name: TROPIQUES MINERALE LOOSE BRONZER
-2025-06-25 17:33:37,740 [main] INFO  - Product price: $38.50
-2025-06-25 17:33:37,774 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=53
-2025-06-25 17:33:37,803 [main] INFO  - Product name: ABSOLUTE ANTI-AGE SPOT REPLENISHING UNIFYING TREATMENTSPF 15
-2025-06-25 17:33:37,835 [main] INFO  - Product price: $42.00
-2025-06-25 17:33:37,868 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=68
-2025-06-25 17:33:37,919 [main] INFO  - Product name: ABSOLUE EYE PRECIOUS CELLS
-2025-06-25 17:33:37,953 [main] INFO  - Product price: $89.00
+2025-06-25 22:44:28,575 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=51
+2025-06-25 22:44:28,657 [TestNG-test-firefox-tests-2] INFO  - Product name: BENEFIT BELLA BAMBA
+2025-06-25 22:44:28,739 [TestNG-test-firefox-tests-2] INFO  - Product price: $28.00
+2025-06-25 22:44:28,834 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=52
+2025-06-25 22:44:28,892 [TestNG-test-firefox-tests-2] INFO  - Product name: TROPIQUES MINERALE LOOSE BRONZER
+2025-06-25 22:44:28,915 [TestNG-test-firefox-tests-1] INFO  - Category page is opened successfully
+2025-06-25 22:44:28,961 [TestNG-test-firefox-tests-2] INFO  - Product price: $38.50
+2025-06-25 22:44:29,020 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=53
+2025-06-25 22:44:29,081 [TestNG-test-firefox-tests-2] INFO  - Product name: ABSOLUTE ANTI-AGE SPOT REPLENISHING UNIFYING TREATMENTSPF 15
+2025-06-25 22:44:29,137 [TestNG-test-firefox-tests-2] INFO  - Product price: $42.00
+2025-06-25 22:44:29,175 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=68
+2025-06-25 22:44:29,214 [TestNG-test-firefox-tests-2] INFO  - Product name: ABSOLUE EYE PRECIOUS CELLS
+2025-06-25 22:44:29,259 [TestNG-test-firefox-tests-2] INFO  - Product price: $89.00
 $105.00
-2025-06-25 17:33:37,980 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=65
-2025-06-25 17:33:38,010 [main] INFO  - Product name: TOTAL MOISTURE FACIAL CREAM
-2025-06-25 17:33:38,042 [main] INFO  - Product price: $38.00
-2025-06-25 17:33:38,066 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=66
-2025-06-25 17:33:38,098 [main] INFO  - Product name: FLASH BRONZER BODY GEL
-2025-06-25 17:33:38,133 [main] INFO  - Product price: $29.00
+2025-06-25 22:44:29,296 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=65
+2025-06-25 22:44:29,335 [TestNG-test-firefox-tests-2] INFO  - Product name: TOTAL MOISTURE FACIAL CREAM
+2025-06-25 22:44:29,375 [TestNG-test-firefox-tests-2] INFO  - Product price: $38.00
+2025-06-25 22:44:29,415 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=66
+2025-06-25 22:44:29,463 [TestNG-test-firefox-tests-2] INFO  - Product name: FLASH BRONZER BODY GEL
+2025-06-25 22:44:29,513 [TestNG-test-firefox-tests-2] INFO  - Product price: $29.00
 $34.50
-2025-06-25 17:33:38,158 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=67
-2025-06-25 17:33:38,181 [main] INFO  - Product name: NEW LADIES HIGH WEDGE HEEL TOE THONG DIAMANTE FLIP FLOP SANDALS
-2025-06-25 17:33:38,205 [main] INFO  - Product price: $26.00
-2025-06-25 17:33:38,225 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=116
-2025-06-25 17:33:38,246 [main] INFO  - Product name: SKINSHEEN BRONZER STICK
-2025-06-25 17:33:38,269 [main] INFO  - Product price: $29.50
-2025-06-25 17:33:38,297 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=50
-2025-06-25 17:33:38,324 [main] INFO  - Product name: CASUAL 3/4 SLEEVE BASEBALL T-SHIRT
-2025-06-25 17:33:38,351 [main] INFO  - Product price: $14.00
-2025-06-25 17:33:38,375 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=123
-2025-06-25 17:33:38,399 [main] INFO  - Product name: CK ONE SHOCK FOR HIM DEODORANT
-2025-06-25 17:33:38,426 [main] INFO  - Product price: $14.00
-2025-06-25 17:33:38,447 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=62
-2025-06-25 17:33:38,475 [main] INFO  - Product name: ABSOLUE EYE PRECIOUS CELLS
-2025-06-25 17:33:38,500 [main] INFO  - Product price: $89.00
+2025-06-25 22:44:29,549 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=67
+2025-06-25 22:44:29,598 [TestNG-test-firefox-tests-2] INFO  - Product name: NEW LADIES HIGH WEDGE HEEL TOE THONG DIAMANTE FLIP FLOP SANDALS
+2025-06-25 22:44:29,640 [TestNG-test-firefox-tests-2] INFO  - Product price: $26.00
+2025-06-25 22:44:29,694 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=116
+2025-06-25 22:44:29,743 [TestNG-test-firefox-tests-2] INFO  - Product name: SKINSHEEN BRONZER STICK
+2025-06-25 22:44:29,798 [TestNG-test-firefox-tests-2] INFO  - Product price: $29.50
+2025-06-25 22:44:29,837 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=50
+2025-06-25 22:44:29,888 [TestNG-test-firefox-tests-2] INFO  - Product name: CASUAL 3/4 SLEEVE BASEBALL T-SHIRT
+2025-06-25 22:44:29,967 [TestNG-test-firefox-tests-2] INFO  - Product price: $14.00
+2025-06-25 22:44:30,028 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=123
+2025-06-25 22:44:30,091 [TestNG-test-firefox-tests-2] INFO  - Product name: CK ONE SHOCK FOR HIM DEODORANT
+2025-06-25 22:44:30,218 [TestNG-test-firefox-tests-2] INFO  - Product price: $14.00
+2025-06-25 22:44:30,291 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=62
+2025-06-25 22:44:30,364 [TestNG-test-firefox-tests-2] INFO  - Product name: ABSOLUE EYE PRECIOUS CELLS
+2025-06-25 22:44:30,447 [TestNG-test-firefox-tests-2] INFO  - Product price: $89.00
 $105.00
-2025-06-25 17:33:38,522 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=65
-2025-06-25 17:33:38,547 [main] INFO  - Product name: ACQUA DI GIO POUR HOMME
-2025-06-25 17:33:38,574 [main] INFO  - Product price: $45.00
+2025-06-25 22:44:30,535 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=65
+2025-06-25 22:44:30,611 [TestNG-test-firefox-tests-2] INFO  - Product name: ACQUA DI GIO POUR HOMME
+2025-06-25 22:44:30,693 [TestNG-test-firefox-tests-2] INFO  - Product price: $45.00
 $59.00
-2025-06-25 17:33:38,595 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=80
-2025-06-25 17:33:38,707 [main] INFO  - Product name: BENEFIT GIRL MEETS PEARL
-2025-06-25 17:33:38,739 [main] INFO  - Product price: $19.00
+2025-06-25 22:44:30,760 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=80
+2025-06-25 22:44:30,861 [TestNG-test-firefox-tests-2] INFO  - Product name: BENEFIT GIRL MEETS PEARL
+2025-06-25 22:44:30,917 [TestNG-test-firefox-tests-2] INFO  - Product price: $19.00
 $30.00
-2025-06-25 17:33:38,758 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=51
-2025-06-25 17:33:38,783 [main] INFO  - Product name: BRUNETTE EXPRESSIONS CONDITIONER
-2025-06-25 17:33:38,808 [main] INFO  - Product price: $24.00
+2025-06-25 22:44:30,963 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=51
+2025-06-25 22:44:30,979 [TestNG-test-firefox-tests-3] INFO  - State: --- Please Select ---
+2025-06-25 22:44:30,979 [TestNG-test-firefox-tests-3] INFO  - State: Aberdeen
+2025-06-25 22:44:30,979 [TestNG-test-firefox-tests-3] INFO  - State: Aberdeenshire
+2025-06-25 22:44:30,979 [TestNG-test-firefox-tests-3] INFO  - State: Anglesey
+2025-06-25 22:44:30,979 [TestNG-test-firefox-tests-3] INFO  - State: Angus
+2025-06-25 22:44:30,980 [TestNG-test-firefox-tests-3] INFO  - State: Argyll and Bute
+2025-06-25 22:44:30,980 [TestNG-test-firefox-tests-3] INFO  - State: Bedfordshire
+2025-06-25 22:44:30,980 [TestNG-test-firefox-tests-3] INFO  - State: Berkshire
+2025-06-25 22:44:30,980 [TestNG-test-firefox-tests-3] INFO  - State: Blaenau Gwent
+2025-06-25 22:44:30,980 [TestNG-test-firefox-tests-3] INFO  - State: Bridgend
+2025-06-25 22:44:30,980 [TestNG-test-firefox-tests-3] INFO  - State: Bristol
+2025-06-25 22:44:30,981 [TestNG-test-firefox-tests-3] INFO  - State: Buckinghamshire
+2025-06-25 22:44:30,981 [TestNG-test-firefox-tests-3] INFO  - State: Caerphilly
+2025-06-25 22:44:30,981 [TestNG-test-firefox-tests-3] INFO  - State: Cambridgeshire
+2025-06-25 22:44:30,981 [TestNG-test-firefox-tests-3] INFO  - State: Cardiff
+2025-06-25 22:44:30,981 [TestNG-test-firefox-tests-3] INFO  - State: Carmarthenshire
+2025-06-25 22:44:30,981 [TestNG-test-firefox-tests-3] INFO  - State: Ceredigion
+2025-06-25 22:44:30,982 [TestNG-test-firefox-tests-3] INFO  - State: Cheshire
+2025-06-25 22:44:30,982 [TestNG-test-firefox-tests-3] INFO  - State: Clackmannanshire
+2025-06-25 22:44:30,982 [TestNG-test-firefox-tests-3] INFO  - State: Conwy
+2025-06-25 22:44:30,982 [TestNG-test-firefox-tests-3] INFO  - State: Cornwall
+2025-06-25 22:44:30,982 [TestNG-test-firefox-tests-3] INFO  - State: Denbighshire
+2025-06-25 22:44:30,983 [TestNG-test-firefox-tests-3] INFO  - State: Derbyshire
+2025-06-25 22:44:30,983 [TestNG-test-firefox-tests-3] INFO  - State: Devon
+2025-06-25 22:44:30,983 [TestNG-test-firefox-tests-3] INFO  - State: Dorset
+2025-06-25 22:44:30,983 [TestNG-test-firefox-tests-3] INFO  - State: Dumfries and Galloway
+2025-06-25 22:44:30,983 [TestNG-test-firefox-tests-3] INFO  - State: Dundee
+2025-06-25 22:44:30,984 [TestNG-test-firefox-tests-3] INFO  - State: Durham
+2025-06-25 22:44:30,984 [TestNG-test-firefox-tests-3] INFO  - State: East Ayrshire
+2025-06-25 22:44:30,984 [TestNG-test-firefox-tests-3] INFO  - State: East Dunbartonshire
+2025-06-25 22:44:30,984 [TestNG-test-firefox-tests-3] INFO  - State: East Lothian
+2025-06-25 22:44:30,984 [TestNG-test-firefox-tests-3] INFO  - State: East Renfrewshire
+2025-06-25 22:44:30,984 [TestNG-test-firefox-tests-3] INFO  - State: East Riding of Yorkshire
+2025-06-25 22:44:30,985 [TestNG-test-firefox-tests-3] INFO  - State: East Sussex
+2025-06-25 22:44:30,985 [TestNG-test-firefox-tests-3] INFO  - State: Edinburgh
+2025-06-25 22:44:30,985 [TestNG-test-firefox-tests-3] INFO  - State: Essex
+2025-06-25 22:44:30,985 [TestNG-test-firefox-tests-3] INFO  - State: Falkirk
+2025-06-25 22:44:30,986 [TestNG-test-firefox-tests-3] INFO  - State: Fife
+2025-06-25 22:44:30,986 [TestNG-test-firefox-tests-3] INFO  - State: Flintshire
+2025-06-25 22:44:30,986 [TestNG-test-firefox-tests-3] INFO  - State: Glasgow
+2025-06-25 22:44:30,986 [TestNG-test-firefox-tests-3] INFO  - State: Gloucestershire
+2025-06-25 22:44:30,987 [TestNG-test-firefox-tests-3] INFO  - State: Greater London
+2025-06-25 22:44:30,987 [TestNG-test-firefox-tests-3] INFO  - State: Greater Manchester
+2025-06-25 22:44:30,987 [TestNG-test-firefox-tests-3] INFO  - State: Gwynedd
+2025-06-25 22:44:30,987 [TestNG-test-firefox-tests-3] INFO  - State: Hampshire
+2025-06-25 22:44:30,988 [TestNG-test-firefox-tests-3] INFO  - State: Herefordshire
+2025-06-25 22:44:30,989 [TestNG-test-firefox-tests-3] INFO  - State: Hertfordshire
+2025-06-25 22:44:30,990 [TestNG-test-firefox-tests-3] INFO  - State: Highlands
+2025-06-25 22:44:30,990 [TestNG-test-firefox-tests-3] INFO  - State: Inverclyde
+2025-06-25 22:44:30,991 [TestNG-test-firefox-tests-3] INFO  - State: Isle of Wight
+2025-06-25 22:44:30,991 [TestNG-test-firefox-tests-3] INFO  - State: Kent
+2025-06-25 22:44:30,991 [TestNG-test-firefox-tests-3] INFO  - State: Lancashire
+2025-06-25 22:44:30,995 [TestNG-test-firefox-tests-3] INFO  - State: Leicestershire
+2025-06-25 22:44:30,995 [TestNG-test-firefox-tests-3] INFO  - State: Lincolnshire
+2025-06-25 22:44:30,996 [TestNG-test-firefox-tests-3] INFO  - State: Merseyside
+2025-06-25 22:44:30,996 [TestNG-test-firefox-tests-3] INFO  - State: Merthyr Tydfil
+2025-06-25 22:44:30,996 [TestNG-test-firefox-tests-3] INFO  - State: Midlothian
+2025-06-25 22:44:30,996 [TestNG-test-firefox-tests-3] INFO  - State: Monmouthshire
+2025-06-25 22:44:30,997 [TestNG-test-firefox-tests-3] INFO  - State: Moray
+2025-06-25 22:44:30,997 [TestNG-test-firefox-tests-3] INFO  - State: Neath Port Talbot
+2025-06-25 22:44:30,997 [TestNG-test-firefox-tests-3] INFO  - State: Newport
+2025-06-25 22:44:30,997 [TestNG-test-firefox-tests-3] INFO  - State: Norfolk
+2025-06-25 22:44:30,997 [TestNG-test-firefox-tests-3] INFO  - State: North Ayrshire
+2025-06-25 22:44:30,997 [TestNG-test-firefox-tests-3] INFO  - State: North Lanarkshire
+2025-06-25 22:44:30,998 [TestNG-test-firefox-tests-3] INFO  - State: North Yorkshire
+2025-06-25 22:44:30,998 [TestNG-test-firefox-tests-3] INFO  - State: Northamptonshire
+2025-06-25 22:44:30,998 [TestNG-test-firefox-tests-3] INFO  - State: Northumberland
+2025-06-25 22:44:30,998 [TestNG-test-firefox-tests-3] INFO  - State: Nottinghamshire
+2025-06-25 22:44:30,998 [TestNG-test-firefox-tests-3] INFO  - State: Orkney Islands
+2025-06-25 22:44:30,998 [TestNG-test-firefox-tests-3] INFO  - State: Oxfordshire
+2025-06-25 22:44:30,999 [TestNG-test-firefox-tests-3] INFO  - State: Pembrokeshire
+2025-06-25 22:44:30,999 [TestNG-test-firefox-tests-3] INFO  - State: Perth and Kinross
+2025-06-25 22:44:30,999 [TestNG-test-firefox-tests-3] INFO  - State: Powys
+2025-06-25 22:44:30,999 [TestNG-test-firefox-tests-3] INFO  - State: Renfrewshire
+2025-06-25 22:44:30,999 [TestNG-test-firefox-tests-3] INFO  - State: Rhondda Cynon Taff
+2025-06-25 22:44:31,000 [TestNG-test-firefox-tests-3] INFO  - State: Rutland
+2025-06-25 22:44:31,000 [TestNG-test-firefox-tests-3] INFO  - State: Scottish Borders
+2025-06-25 22:44:31,005 [TestNG-test-firefox-tests-3] INFO  - State: Shetland Islands
+2025-06-25 22:44:31,006 [TestNG-test-firefox-tests-3] INFO  - State: Shropshire
+2025-06-25 22:44:31,006 [TestNG-test-firefox-tests-3] INFO  - State: Somerset
+2025-06-25 22:44:31,007 [TestNG-test-firefox-tests-3] INFO  - State: South Ayrshire
+2025-06-25 22:44:31,007 [TestNG-test-firefox-tests-3] INFO  - State: South Lanarkshire
+2025-06-25 22:44:31,008 [TestNG-test-firefox-tests-3] INFO  - State: South Yorkshire
+2025-06-25 22:44:31,008 [TestNG-test-firefox-tests-3] INFO  - State: Staffordshire
+2025-06-25 22:44:31,008 [TestNG-test-firefox-tests-3] INFO  - State: Stirling
+2025-06-25 22:44:31,008 [TestNG-test-firefox-tests-3] INFO  - State: Suffolk
+2025-06-25 22:44:31,008 [TestNG-test-firefox-tests-3] INFO  - State: Surrey
+2025-06-25 22:44:31,008 [TestNG-test-firefox-tests-3] INFO  - State: Swansea
+2025-06-25 22:44:31,009 [TestNG-test-firefox-tests-3] INFO  - State: Torfaen
+2025-06-25 22:44:31,009 [TestNG-test-firefox-tests-3] INFO  - State: Tyne and Wear
+2025-06-25 22:44:31,009 [TestNG-test-firefox-tests-3] INFO  - State: Vale of Glamorgan
+2025-06-25 22:44:31,009 [TestNG-test-firefox-tests-3] INFO  - State: Warwickshire
+2025-06-25 22:44:31,009 [TestNG-test-firefox-tests-3] INFO  - State: West Dunbartonshire
+2025-06-25 22:44:31,010 [TestNG-test-firefox-tests-3] INFO  - State: West Lothian
+2025-06-25 22:44:31,010 [TestNG-test-firefox-tests-3] INFO  - State: West Midlands
+2025-06-25 22:44:31,010 [TestNG-test-firefox-tests-3] INFO  - State: West Sussex
+2025-06-25 22:44:31,010 [TestNG-test-firefox-tests-3] INFO  - State: West Yorkshire
+2025-06-25 22:44:31,010 [TestNG-test-firefox-tests-3] INFO  - State: Western Isles
+2025-06-25 22:44:31,010 [TestNG-test-firefox-tests-3] INFO  - State: Wiltshire
+2025-06-25 22:44:31,011 [TestNG-test-firefox-tests-3] INFO  - State: Worcestershire
+2025-06-25 22:44:31,011 [TestNG-test-firefox-tests-3] INFO  - State: Wrexham
+2025-06-25 22:44:31,044 [TestNG-test-firefox-tests-2] INFO  - Product name: BRUNETTE EXPRESSIONS CONDITIONER
+2025-06-25 22:44:31,122 [TestNG-test-firefox-tests-2] INFO  - Product price: $24.00
 $27.00
-2025-06-25 17:33:38,829 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=72
-2025-06-25 17:33:39,606 [main] INFO  - Random product selected and added to cart successfully: ABSOLUTE ANTI-AGE SPOT REPLENISHING UNIFYING TREATMENTSPF 15 having price $42.00
-2025-06-25 17:33:40,304 [main] INFO  - Random product selected and added to cart successfully: BENEFIT BELLA BAMBA having price $28.00
-2025-06-25 17:33:46,282 [main] INFO  - Random product selected and added to cart successfully
-2025-06-25 17:33:47,444 [main] INFO  - tearDown completed for org.ecom.tests.ProductSelectionAndCartAdditionTest
+2025-06-25 22:44:31,197 [TestNG-test-firefox-tests-2] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=72
+2025-06-25 22:44:31,989 [TestNG-test-firefox-tests-2] INFO  - Random product selected and added to cart successfully: ABSOLUTE ANTI-AGE SPOT REPLENISHING UNIFYING TREATMENTSPF 15 having price $42.00
+2025-06-25 22:44:32,593 [TestNG-test-firefox-tests-2] INFO  - Random product selected and added to cart successfully: ABSOLUE EYE PRECIOUS CELLS having price $89.00
+$105.00
+2025-06-25 22:44:33,804 [TestNG-test-firefox-tests-2] INFO  - Random product selected and added to cart successfully
+2025-06-25 22:44:33,805 [TestNG-test-firefox-tests-2] INFO  - Selected product and added to cart successfully
+2025-06-25 22:44:33,975 [TestNG-test-firefox-tests-2] INFO  - Product 1 name Absolute Anti-Age Spot Replenishing Unifying TreatmentSPF 15
+2025-06-25 22:44:33,976 [TestNG-test-firefox-tests-2] INFO  - Product 1 price 42.0
+2025-06-25 22:44:33,976 [TestNG-test-firefox-tests-2] INFO  - Product 2 name Absolue Eye Precious Cells
+2025-06-25 22:44:33,976 [TestNG-test-firefox-tests-2] INFO  - Product 2 price 89.0
+2025-06-25 22:44:33,977 [TestNG-test-firefox-tests-2] INFO  - Product details verified successfully
+2025-06-25 22:44:34,390 [TestNG-test-firefox-tests-1] INFO  - tearDown completed for org.ecom.tests.HomepageAndCategoryVerificationTest
+2025-06-25 22:44:35,160 [TestNG-test-firefox-tests-2] INFO  - tearDown completed for org.ecom.tests.ProductSelectionAndCartAdditionTest
+2025-06-25 22:44:36,100 [TestNG-test-firefox-tests-3] INFO  - Country: --- Please Select ---
+2025-06-25 22:44:36,100 [TestNG-test-firefox-tests-3] INFO  - Country: Afghanistan
+2025-06-25 22:44:36,100 [TestNG-test-firefox-tests-3] INFO  - Country: Albania
+2025-06-25 22:44:36,100 [TestNG-test-firefox-tests-3] INFO  - Country: Algeria
+2025-06-25 22:44:36,100 [TestNG-test-firefox-tests-3] INFO  - Country: American Samoa
+2025-06-25 22:44:36,100 [TestNG-test-firefox-tests-3] INFO  - Country: Andorra
+2025-06-25 22:44:36,100 [TestNG-test-firefox-tests-3] INFO  - Country: Angola
+2025-06-25 22:44:36,100 [TestNG-test-firefox-tests-3] INFO  - Country: Anguilla
+2025-06-25 22:44:36,100 [TestNG-test-firefox-tests-3] INFO  - Country: Antarctica
+2025-06-25 22:44:36,100 [TestNG-test-firefox-tests-3] INFO  - Country: Antigua and Barbuda
+2025-06-25 22:44:36,100 [TestNG-test-firefox-tests-3] INFO  - Country: Argentina
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Armenia
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Aruba
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Australia
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Austria
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Azerbaijan
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Bahamas
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Bahrain
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Bangladesh
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Barbados
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Belarus
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Belgium
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Belize
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Benin
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Bermuda
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Bhutan
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Bolivia
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Bosnia and Herzegowina
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Botswana
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Bouvet Island
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: Brazil
+2025-06-25 22:44:36,101 [TestNG-test-firefox-tests-3] INFO  - Country: British Indian Ocean Territory
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Brunei Darussalam
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Bulgaria
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Burkina Faso
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Burundi
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Cambodia
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Cameroon
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Canada
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Cape Verde
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Cayman Islands
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Central African Republic
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Chad
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Chile
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: China
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Christmas Island
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Cocos (Keeling) Islands
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Colombia
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Comoros
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Congo
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Cook Islands
+2025-06-25 22:44:36,102 [TestNG-test-firefox-tests-3] INFO  - Country: Costa Rica
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Cote D'Ivoire
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Croatia
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Cuba
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Cyprus
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Czech Republic
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Denmark
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Djibouti
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Dominica
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Dominican Republic
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: East Timor
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Ecuador
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Egypt
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: El Salvador
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Equatorial Guinea
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Eritrea
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Estonia
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Ethiopia
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Falkland Islands (Malvinas)
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Faroe Islands
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Fiji
+2025-06-25 22:44:36,103 [TestNG-test-firefox-tests-3] INFO  - Country: Finland
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: France
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: France, Metropolitan
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: French Guiana
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: French Polynesia
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: French Southern Territories
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Gabon
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Gambia
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Georgia
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Germany
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Ghana
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Gibraltar
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Greece
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Greenland
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Grenada
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Guadeloupe
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Guam
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Guatemala
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Guinea
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Guinea-bissau
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Guyana
+2025-06-25 22:44:36,104 [TestNG-test-firefox-tests-3] INFO  - Country: Haiti
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Heard and Mc Donald Islands
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Honduras
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Hong Kong
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Hungary
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Iceland
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: India
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Indonesia
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Iran (Islamic Republic of)
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Iraq
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Ireland
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Israel
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Italy
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Jamaica
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Japan
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Jordan
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Kazakhstan
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Kenya
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Kiribati
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Korea, Republic of
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Kuwait
+2025-06-25 22:44:36,105 [TestNG-test-firefox-tests-3] INFO  - Country: Kyrgyzstan
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Lao People's Democratic Republic
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Latvia
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Lebanon
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Lesotho
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Liberia
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Libyan Arab Jamahiriya
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Liechtenstein
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Lithuania
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Luxembourg
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Macau
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Macedonia
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Madagascar
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Malawi
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Malaysia
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Maldives
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Mali
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Malta
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Marshall Islands
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Martinique
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Mauritania
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Mauritius
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Mayotte
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Mexico
+2025-06-25 22:44:36,106 [TestNG-test-firefox-tests-3] INFO  - Country: Micronesia, Federated States of
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Moldova, Republic of
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Monaco
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Mongolia
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Montserrat
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Morocco
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Mozambique
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Myanmar
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Namibia
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Nauru
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Nepal
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Netherlands
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Netherlands Antilles
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: New Caledonia
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: New Zealand
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Nicaragua
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Niger
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Nigeria
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Niue
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Norfolk Island
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: North Korea
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Northern Ireland
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Northern Mariana Islands
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Norway
+2025-06-25 22:44:36,107 [TestNG-test-firefox-tests-3] INFO  - Country: Oman
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Pakistan
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Palau
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Panama
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Papua New Guinea
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Paraguay
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Peru
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Philippines
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Pitcairn
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Poland
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Portugal
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Puerto Rico
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Qatar
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Reunion
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Romania
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Russia
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Rwanda
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Saint Kitts and Nevis
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Saint Lucia
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Saint Vincent and the Grenadines
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: Samoa
+2025-06-25 22:44:36,108 [TestNG-test-firefox-tests-3] INFO  - Country: San Marino
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Sao Tome and Principe
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Saudi Arabia
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Senegal
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Seychelles
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Sierra Leone
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Singapore
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Slovak Republic
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Slovenia
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Solomon Islands
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Somalia
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: South Africa
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: South Georgia & South Sandwich Islands
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Spain
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Sri Lanka
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: St. Helena
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: St. Pierre and Miquelon
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Sudan
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Suriname
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Svalbard and Jan Mayen Islands
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Swaziland
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Sweden
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Switzerland
+2025-06-25 22:44:36,109 [TestNG-test-firefox-tests-3] INFO  - Country: Syrian Arab Republic
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Taiwan
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Tajikistan
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Tanzania, United Republic of
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Thailand
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Togo
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Tokelau
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Tonga
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Trinidad and Tobago
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Tunisia
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Turkey
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Turkmenistan
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Turks and Caicos Islands
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Tuvalu
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Uganda
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Ukraine
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: United Arab Emirates
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: United Kingdom
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: United States
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: United States Minor Outlying Islands
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Uruguay
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Uzbekistan
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Vanuatu
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Vatican City State (Holy See)
+2025-06-25 22:44:36,110 [TestNG-test-firefox-tests-3] INFO  - Country: Venezuela
+2025-06-25 22:44:36,111 [TestNG-test-firefox-tests-3] INFO  - Country: Viet Nam
+2025-06-25 22:44:36,111 [TestNG-test-firefox-tests-3] INFO  - Country: Virgin Islands (British)
+2025-06-25 22:44:36,111 [TestNG-test-firefox-tests-3] INFO  - Country: Virgin Islands (U.S.)
+2025-06-25 22:44:36,111 [TestNG-test-firefox-tests-3] INFO  - Country: Wallis and Futuna Islands
+2025-06-25 22:44:36,111 [TestNG-test-firefox-tests-3] INFO  - Country: Western Sahara
+2025-06-25 22:44:36,111 [TestNG-test-firefox-tests-3] INFO  - Country: Yemen
+2025-06-25 22:44:36,111 [TestNG-test-firefox-tests-3] INFO  - Country: Yugoslavia
+2025-06-25 22:44:36,111 [TestNG-test-firefox-tests-3] INFO  - Country: Zaire
+2025-06-25 22:44:36,111 [TestNG-test-firefox-tests-3] INFO  - Country: Zambia
+2025-06-25 22:44:36,111 [TestNG-test-firefox-tests-3] INFO  - Country: Zimbabwe
+2025-06-25 22:44:39,676 [TestNG-test-firefox-tests-3] INFO  - Registration form filled successfully
+2025-06-25 22:44:40,952 [TestNG-test-firefox-tests-3] INFO  - tearDown completed for org.ecom.tests.RegistrationTest

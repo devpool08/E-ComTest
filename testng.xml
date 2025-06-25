@@ -4,11 +4,12 @@
     <listeners>
         <listener class-name="org.ecom.utils.ExtentReportManager"/>
     </listeners>
-    <test verbose="2" name="firefox-tests">
+    <test verbose="2" name="firefox-tests" parallel="classes">
         <parameter name="browser" value="firefox"/>
         <classes>
-<!--            <class name="org.ecom.tests.HomepageAndCategoryVerificationTest"/>-->
+            <class name="org.ecom.tests.HomepageAndCategoryVerificationTest"/>
             <class name="org.ecom.tests.ProductSelectionAndCartAdditionTest"/>
+            <class name="org.ecom.tests.RegistrationTest"/>
         </classes>
     </test>
 <!--    <test verbose="2" name="chrome-tests">-->

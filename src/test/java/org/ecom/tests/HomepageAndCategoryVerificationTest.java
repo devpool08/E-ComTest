@@ -3,7 +3,6 @@ package org.ecom.tests;
 import lombok.extern.log4j.Log4j2;
 import org.ecom.base.BaseTest;
 import org.ecom.pages.HomePage;
-import org.ecom.utils.data.TestData;
 import org.ecom.utils.exceptions.NavigationFailedException;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -58,13 +57,12 @@ public class HomepageAndCategoryVerificationTest extends BaseTest {
     public void navigateToRandomCategoryAndValidateMinimumNumberOfProduct() {
         try {
             List<WebElement> categories = homePage.getCategoryMenuItems();
-            int randomIndex = TestData.getRandomNumber(0, categories.size() - 1);
+            int randomIndex = testData.getRandomNumber(0, categories.size() - 1);
             WebElement randomCategory = categories.get(randomIndex);
             String categoryName = randomCategory.getText();
             homePage.navigateToCategory(categoryName);
             List<WebElement> products = homePage.getProductItems();
             assertTrue(products.size() >= 3, "Expected at least 3 products in the category, but found: " + products.size());
-            Thread.sleep(2000);
             log.info("Successfully navigated to category: {}", randomCategory);
         } catch (Exception e) {
             log.error("Failed to navigate to random category: {}", e.getMessage());
