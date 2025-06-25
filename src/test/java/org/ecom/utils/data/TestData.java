@@ -4,10 +4,7 @@ import com.github.javafaker.Faker;
 
 @SuppressWarnings("unused")
 public class TestData {
-    private final Faker faker;
-    public TestData(){
-        faker = new Faker();
-    }
+    private static final Faker faker = new Faker();
     public String getRandomEmail() {
         return faker.internet().emailAddress();
     }
@@ -31,5 +28,8 @@ public class TestData {
     }
     public String getRandomCategory() {
         return faker.commerce().department();
+    }
+    public static int getRandomNumber(int min, int max) {
+        return faker.number().numberBetween(min, max);
     }
 }

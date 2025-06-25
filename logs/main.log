@@ -1,20 +1,61 @@
-2025-06-24 20:46:43,547 [TestNG-tests-2] ERROR - Error during setup: Browser is not available
-2025-06-24 20:46:47,425 [TestNG-tests-3] ERROR - Error during setup: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 131
-Current browser version is 137.0.3296.93 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-Host info: host: 'KRISHNAS', ip: '192.168.1.10'
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized, --disable-popup-blocking], binary: C:\Program Files (x86)\Micr..., extensions: []}}]}]
-2025-06-24 20:46:51,311 [TestNG-tests-1] INFO  - setUp completed for org.ecom.tests.HomepageAndCategoryVerificationTest
-2025-06-24 20:46:56,196 [TestNG-tests-1] INFO  - tearDown completed for org.ecom.tests.HomepageAndCategoryVerificationTest
-2025-06-24 21:28:25,211 [TestNG-tests-1] INFO  - setUp completed for org.ecom.tests.HomepageAndCategoryVerificationTest
-2025-06-24 21:28:30,485 [TestNG-tests-1] INFO  - tearDown completed for org.ecom.tests.HomepageAndCategoryVerificationTest
-2025-06-24 21:30:30,679 [TestNG-tests-1] INFO  - setUp completed for org.ecom.tests.HomepageAndCategoryVerificationTest
-2025-06-24 21:30:33,045 [TestNG-tests-1] INFO  - Homepage is opened successfully
-2025-06-24 21:30:33,166 [TestNG-tests-1] INFO  - Category page is opened successfully
-2025-06-24 21:30:34,352 [TestNG-tests-1] INFO  - tearDown completed for org.ecom.tests.HomepageAndCategoryVerificationTest
-2025-06-24 21:31:25,935 [TestNG-tests-1] INFO  - setUp completed for org.ecom.tests.HomepageAndCategoryVerificationTest
-2025-06-24 21:31:28,360 [TestNG-tests-1] INFO  - Homepage is opened successfully
-2025-06-24 21:31:28,475 [TestNG-tests-1] INFO  - Category page is opened successfully
-2025-06-24 21:31:29,784 [TestNG-tests-1] INFO  - tearDown completed for org.ecom.tests.HomepageAndCategoryVerificationTest
+2025-06-25 17:33:22,806 [main] INFO  - setUp completed for org.ecom.tests.ProductSelectionAndCartAdditionTest
+2025-06-25 17:33:37,269 [main] INFO  - Homepage is opened successfully
+2025-06-25 17:33:37,402 [main] INFO  - Product name: SKINSHEEN BRONZER STICK
+2025-06-25 17:33:37,433 [main] INFO  - Product price: $29.50
+2025-06-25 17:33:37,465 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=50
+2025-06-25 17:33:37,501 [main] INFO  - Product name: BENEFIT GIRL MEETS PEARL
+2025-06-25 17:33:37,540 [main] INFO  - Product price: $19.00
+$30.00
+2025-06-25 17:33:37,575 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=51
+2025-06-25 17:33:37,603 [main] INFO  - Product name: BENEFIT BELLA BAMBA
+2025-06-25 17:33:37,633 [main] INFO  - Product price: $28.00
+2025-06-25 17:33:37,675 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=52
+2025-06-25 17:33:37,705 [main] INFO  - Product name: TROPIQUES MINERALE LOOSE BRONZER
+2025-06-25 17:33:37,740 [main] INFO  - Product price: $38.50
+2025-06-25 17:33:37,774 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=53
+2025-06-25 17:33:37,803 [main] INFO  - Product name: ABSOLUTE ANTI-AGE SPOT REPLENISHING UNIFYING TREATMENTSPF 15
+2025-06-25 17:33:37,835 [main] INFO  - Product price: $42.00
+2025-06-25 17:33:37,868 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=68
+2025-06-25 17:33:37,919 [main] INFO  - Product name: ABSOLUE EYE PRECIOUS CELLS
+2025-06-25 17:33:37,953 [main] INFO  - Product price: $89.00
+$105.00
+2025-06-25 17:33:37,980 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=65
+2025-06-25 17:33:38,010 [main] INFO  - Product name: TOTAL MOISTURE FACIAL CREAM
+2025-06-25 17:33:38,042 [main] INFO  - Product price: $38.00
+2025-06-25 17:33:38,066 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=66
+2025-06-25 17:33:38,098 [main] INFO  - Product name: FLASH BRONZER BODY GEL
+2025-06-25 17:33:38,133 [main] INFO  - Product price: $29.00
+$34.50
+2025-06-25 17:33:38,158 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=67
+2025-06-25 17:33:38,181 [main] INFO  - Product name: NEW LADIES HIGH WEDGE HEEL TOE THONG DIAMANTE FLIP FLOP SANDALS
+2025-06-25 17:33:38,205 [main] INFO  - Product price: $26.00
+2025-06-25 17:33:38,225 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=116
+2025-06-25 17:33:38,246 [main] INFO  - Product name: SKINSHEEN BRONZER STICK
+2025-06-25 17:33:38,269 [main] INFO  - Product price: $29.50
+2025-06-25 17:33:38,297 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=50
+2025-06-25 17:33:38,324 [main] INFO  - Product name: CASUAL 3/4 SLEEVE BASEBALL T-SHIRT
+2025-06-25 17:33:38,351 [main] INFO  - Product price: $14.00
+2025-06-25 17:33:38,375 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=123
+2025-06-25 17:33:38,399 [main] INFO  - Product name: CK ONE SHOCK FOR HIM DEODORANT
+2025-06-25 17:33:38,426 [main] INFO  - Product price: $14.00
+2025-06-25 17:33:38,447 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=62
+2025-06-25 17:33:38,475 [main] INFO  - Product name: ABSOLUE EYE PRECIOUS CELLS
+2025-06-25 17:33:38,500 [main] INFO  - Product price: $89.00
+$105.00
+2025-06-25 17:33:38,522 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=65
+2025-06-25 17:33:38,547 [main] INFO  - Product name: ACQUA DI GIO POUR HOMME
+2025-06-25 17:33:38,574 [main] INFO  - Product price: $45.00
+$59.00
+2025-06-25 17:33:38,595 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=80
+2025-06-25 17:33:38,707 [main] INFO  - Product name: BENEFIT GIRL MEETS PEARL
+2025-06-25 17:33:38,739 [main] INFO  - Product price: $19.00
+$30.00
+2025-06-25 17:33:38,758 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=51
+2025-06-25 17:33:38,783 [main] INFO  - Product name: BRUNETTE EXPRESSIONS CONDITIONER
+2025-06-25 17:33:38,808 [main] INFO  - Product price: $24.00
+$27.00
+2025-06-25 17:33:38,829 [main] INFO  - Product url: https://automationteststore.com/index.php?rt=product/product&product_id=72
+2025-06-25 17:33:39,606 [main] INFO  - Random product selected and added to cart successfully: ABSOLUTE ANTI-AGE SPOT REPLENISHING UNIFYING TREATMENTSPF 15 having price $42.00
+2025-06-25 17:33:40,304 [main] INFO  - Random product selected and added to cart successfully: BENEFIT BELLA BAMBA having price $28.00
+2025-06-25 17:33:46,282 [main] INFO  - Random product selected and added to cart successfully
+2025-06-25 17:33:47,444 [main] INFO  - tearDown completed for org.ecom.tests.ProductSelectionAndCartAdditionTest

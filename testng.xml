@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" parallel="tests">
+<suite name="All Test Suite" thread-count="3">
     <listeners>
         <listener class-name="org.ecom.utils.ExtentReportManager"/>
     </listeners>
     <test verbose="2" name="firefox-tests">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="org.ecom.tests.HomepageAndCategoryVerificationTest"/>
+<!--            <class name="org.ecom.tests.HomepageAndCategoryVerificationTest"/>-->
+            <class name="org.ecom.tests.ProductSelectionAndCartAdditionTest"/>
         </classes>
     </test>
 <!--    <test verbose="2" name="chrome-tests">-->

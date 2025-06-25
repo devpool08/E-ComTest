@@ -3,10 +3,12 @@ package org.ecom.base;
 import com.github.javafaker.Faker;
 import lombok.SneakyThrows;
 import lombok.extern.log4j.Log4j2;
+import org.ecom.utils.PropertiesUtil;
 import org.ecom.utils.SingletonWebDriverFactoryUtils;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+import org.testng.asserts.SoftAssert;
 
 import java.io.FileReader;
 import java.util.Properties;
@@ -19,6 +21,7 @@ public class BaseTest {
     protected Properties properties;
     protected FileReader reader;
     protected String browserName;
+    protected SoftAssert softAssert;
 
     @SneakyThrows
     @BeforeClass
@@ -26,10 +29,13 @@ public class BaseTest {
     public void setUp(String browser) {
         try {
             faker= new Faker();
+            if( browser == null || browser.isEmpty()) {
+                log.error("Browser parameter is not provided or is empty. Defaulting to 'chrome'.");
+                browser = "firefox";
+            }
             SingletonWebDriverFactoryUtils.setThreadLocalDriver(browser);
-            properties = new Properties();
-            reader = new FileReader("./src/test/resources/config.properties");
-            properties.load(reader);
+            properties= PropertiesUtil.getProperties();
+            softAssert = new SoftAssert();
             browserName = browser;
             log.info("setUp completed for {}", this.getClass().getName());
         } catch (Exception e) {

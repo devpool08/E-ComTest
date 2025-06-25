@@ -19,8 +19,11 @@ public class SingletonWebDriverFactoryUtils {
     }
 
     public static void quitDriverAndRemove() {
-        getThreadLocalDriver().quit();
-        threadLocalDriver.remove();
+        WebDriver driver = threadLocalDriver.get();
+        if (driver != null) {
+            getThreadLocalDriver().quit();
+            threadLocalDriver.remove();
+        }
     }
 
     private SingletonWebDriverFactoryUtils() {}
